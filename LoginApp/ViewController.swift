@@ -41,8 +41,10 @@ class LoginViewController: UIViewController {
     
     @IBAction func logInButtonPressed(_ sender: Any) {
         if userNameTF.text != userName || userPasswordTF.text != userPassword {
-            showAlert(whith: "Invalid login or password",
-                      and: "Please, enter correct login and password")
+            showAlert(
+                whith: "Invalid login or password",
+                and: "Please, enter correct login and password"
+            )
         }
     }
     
@@ -68,6 +70,7 @@ extension LoginViewController {
         let okAction = UIAlertAction(title: "OK", style: .default) { showAlert in
             self.userPasswordTF.text = ""
         }
+        
         alert.addAction(okAction)
         present(alert, animated: true)
     }

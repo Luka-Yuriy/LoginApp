@@ -8,12 +8,11 @@
 import UIKit
 
 class WelcomeViewController: UIViewController {
-
-    @IBOutlet var welcomeMessage: UILabel!
-    
-    @IBOutlet var gradientView: UIView!
     
     var userName: String!
+
+    @IBOutlet var welcomeMessage: UILabel!
+    @IBOutlet var gradientView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,8 +27,4 @@ class WelcomeViewController: UIViewController {
         
         welcomeMessage.text = "Welcome " + userName + "!"
     }
-
-    @IBAction func logOutButtonPressed() {
-    }
-    
 }
