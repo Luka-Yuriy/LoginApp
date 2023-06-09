@@ -16,7 +16,6 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         gradientBackground()
         
         welcomeMessage.text = "Welcome " + userName + "!"
