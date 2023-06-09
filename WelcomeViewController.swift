@@ -17,6 +17,12 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        gradientBackground()
+        
+        welcomeMessage.text = "Welcome " + userName + "!"
+    }
+    
+    private func gradientBackground() {
         let gradientBackground = CAGradientLayer()
         gradientBackground.frame = view.bounds
         gradientBackground.colors = [
@@ -24,7 +30,5 @@ class WelcomeViewController: UIViewController {
             UIColor.systemOrange.cgColor
         ]
         gradientView.layer.addSublayer(gradientBackground)
-        
-        welcomeMessage.text = "Welcome " + userName + "!"
     }
 }

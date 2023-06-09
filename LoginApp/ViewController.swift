@@ -26,16 +26,7 @@ class LoginViewController: UIViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
-        
-        if let touch = touches.first {
-            if touch.view != self.userNameTF {
-                self.userNameTF.resignFirstResponder()
-            }
-            
-            if touch.view != self.userPasswordTF {
-                self.userPasswordTF.resignFirstResponder()
-            }
-        }
+        view.endEditing(true)
     }
 
     
