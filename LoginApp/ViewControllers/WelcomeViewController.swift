@@ -8,10 +8,10 @@
 import UIKit
 
 class WelcomeViewController: UIViewController {
-
-    private let user = User.getPerson()
     
     @IBOutlet var welcomeLable: UILabel!
+    
+    private let user = User.getPerson()
     
     private let privaruColor = UIColor(
         red: 210/255,
