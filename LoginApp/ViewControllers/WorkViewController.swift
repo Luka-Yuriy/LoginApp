@@ -18,7 +18,7 @@ class WorkViewController: UIViewController {
         super.viewDidLoad()
         
         userWorkLabel.text = user.person.job
-        
+
         jobCompanyLabel.layer.cornerRadius = 12
     }
  

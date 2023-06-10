@@ -23,6 +23,8 @@ class PersonViewController: UIViewController {
         userHobbiesLabel.text = user.person.hobbies
         
         personImage.layer.cornerRadius = personImage.frame.width / 2
+        
+        navigationItem.title = "\(user.person.name) \(user.person.surName)"
     
     }
 }

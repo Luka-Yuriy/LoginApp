@@ -145,7 +145,7 @@
             </objects>
             <point key="canvasLocation" x="797" y="786"/>
         </scene>
-        <!--Luka Yuriy-->
+        <!--Person View Controller-->
         <scene sceneID="5vq-so-NYn">
             <objects>
                 <viewController id="6Km-8b-MbR" customClass="PersonViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -186,7 +186,7 @@
                             <constraint firstItem="he5-h9-TXx" firstAttribute="trailing" secondItem="Guu-ti-tNE" secondAttribute="trailing" constant="16" id="ztO-Pd-EFv"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Luka Yuriy" id="qW2-BF-4Z7"/>
+                    <navigationItem key="navigationItem" customizationIdentifier="qwer" id="qW2-BF-4Z7"/>
                     <connections>
                         <outlet property="personImage" destination="cq0-UC-QaA" id="Pzs-0J-iES"/>
                         <outlet property="userBiographyLabel" destination="sob-g0-jaV" id="Hyj-cY-66i"/>
@@ -286,7 +286,7 @@
                     <tabBarItem key="tabBarItem" title="Work" image="person.fill" catalog="system" id="0px-YV-sxu"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="bLU-GV-xYg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="98.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="92.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

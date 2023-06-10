@@ -30,7 +30,7 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addVerticalGradientLayer(topColor: privaruColor, bottomColor: secondaryColor)
-        welcomeLable.text = "Welcome, \(user.person.surName) \(user.person.name)!"
+        welcomeLable.text = "Welcome, \(user.person.name) \(user.person.surName)!"
     }
 }
 
